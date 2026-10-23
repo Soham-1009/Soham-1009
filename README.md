@@ -53,7 +53,21 @@ The repository reports held-out evaluation on **1,259 test samples** for Exp9, i
 
 ## Other Projects
 
+### [ScamShield AI — Explainable Job Scam Detector](https://github.com/Soham-1009/ScamShield-AI)
+
+**Explainable fake job and internship detection system**
+
+An open-source full-stack prototype and Manifest V3 Chrome extension designed to help students and job seekers assess suspicious job and internship listings. ScamShield AI combines a transparent rule-based risk engine, deterministic template explanations, Tesseract OCR for screenshot text extraction, and a TF-IDF + Logistic Regression classifier. The extension can analyze text locally in the browser, with an optional Flask backend for OCR and server-side analysis.
+
+- Detects warning indicators such as upfront fees, identity and credential requests, unrealistic promises, urgency tactics, questionable employer details, and unofficial communication channels.
+- Shows matched phrases, reasons, and practical verification steps so users can inspect the evidence behind an assessment.
+- Keeps rule-based findings separate from ML predictions; a score is not treated as proof that an offer is fraudulent or legitimate.
+- Uses no generative AI or LLM APIs, according to the project documentation.
+
+**Stack:** Python · Flask · Scikit-learn · TF-IDF · Logistic Regression · Tesseract OCR · JavaScript · Chrome Extension API · Docker
+
 ### [Translytic](https://github.com/Soham-1009/Translytic)
+
 **AI-based video captioning and translation desktop application**
 
 A Python desktop app that transcribes video speech with OpenAI Whisper, translates timestamped captions, displays synchronized subtitles during playback, can generate dubbed speech with text-to-speech, and exports subtitles as `.srt` files.
@@ -61,6 +75,7 @@ A Python desktop app that transcribes video speech with OpenAI Whisper, translat
 **Stack:** Python · Whisper · OpenCV · Tkinter · MoviePy · `deep-translator` · `edge-tts` · pydub
 
 ### [NoteFlow — Notes Taking App](https://github.com/Soham-1009/Notes-Taking-App)
+
 **Full-stack notes management platform**
 
 A notes application with authentication, create/read/update/delete workflows, category-based filtering, role-based access control, and AJAX-powered search.
